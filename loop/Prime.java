@@ -11,7 +11,7 @@ public class Prime {
         //System.out.println("j = " +j);
       }
       //System.out.println("j = " +j);
-      if (j == i && i != 1) {
+      if (j == i ) {
         System.out.println(j);
       }
       i++;
