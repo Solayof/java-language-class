@@ -1,0 +1,15 @@
+import java.util.*;
+public class Binarysearch {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int index = Arrays.binarySearch(numbers, 7);
+
+        System.out.println(index);
+
+        index = Arrays.binarySearch(numbers, 11);
+        System.out.println(index);
+
+        index = Arrays.binarySearch(numbers, 9);
+        System.out.println(index);
+    }
+}
