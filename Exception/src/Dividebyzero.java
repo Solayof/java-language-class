@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Dividebyzero {
+public class Dividebyzero {
+    public static void main(String[] args) {
+        try {
+            int data = 50 / 0;
+        } catch (ArithmeticException e) {
+            System.out.println(e);
+        } finally {
+            System.out.println("finally");
+        }
+    }
 }
